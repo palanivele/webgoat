@@ -62,11 +62,11 @@ public class VulnerableTaskHolder implements Serializable {
         && taskAction.length() < 22) {
       log.info("about to execute: {}", taskAction);
       try {
-        Process p = Runtime.getRuntime().exec(taskAction);
-        BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
-        String line = null;
-        while ((line = in.readLine()) != null) {
-          log.info(line);
+       // Process p = Runtime.getRuntime().exec(taskAction);
+       // BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+       // String line = null;
+       // while ((line = in.readLine()) != null) {
+        //  log.info(line);
         }
       } catch (IOException e) {
         log.error("IO Exception", e);
