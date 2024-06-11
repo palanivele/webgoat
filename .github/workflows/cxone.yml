@@ -17,5 +17,5 @@ jobs:
           project_name: palanivel_WebGoat
           cx_tenant: ama-partners
           base_uri: https://ind.iam.checkmarx.net/ 
-          cx_client_id: ${{ secrets.CLIENT_ID }}
-          cx_client_secret: ${{ secrets.SECRET }}
+          cx_client_id: ME123_CxOne_Client
+          cx_client_secret: BQHNkrH9QleEGjTuwdAv8hoJNrFFO6Pm
