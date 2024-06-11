@@ -19,3 +19,4 @@ jobs:
           base_uri: https://ind.iam.checkmarx.net/ 
           cx_client_id: ME123_CxOne_Client
           cx_client_secret: BQHNkrH9QleEGjTuwdAv8hoJNrFFO6Pm
+          cxGithubIssues: true
