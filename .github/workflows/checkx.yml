@@ -19,7 +19,7 @@ jobs:
           base_uri: https://ind.iam.checkmarx.net/
           cx_client_id: ME123_CxOne_Client
           cx_client_secret: BQHNkrH9QleEGjTuwdAv8hoJNrFFO6Pm
-          additional_params: --report-format sarif --output-path . --output-name cx_result --sast-incremental
+          additional_params: --report-format sarif --output-path . --output-name cx_result
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v3
         with: 
